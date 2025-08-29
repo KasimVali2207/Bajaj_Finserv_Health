@@ -1,5 +1,4 @@
-Perfect 👍 I’ll create a professional **README.md** for your Bajaj Finserv Health API project.
-Here’s a version you can directly add to your repo:
+
 
 ```markdown
 # Bajaj Finserv Health API (BFHL)
@@ -131,7 +130,4 @@ Bajaj_Finserv_Health/
 
 ---
 
-👉 Copy this into a `README.md` file and push it to your repo.  
 
-Do you also want me to generate the **requirements.txt** for you (with FastAPI + Uvicorn versions pinned), so your Render build is stable?
-```
