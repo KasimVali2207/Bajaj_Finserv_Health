@@ -1,29 +1,28 @@
-
-
-```markdown
-# Bajaj Finserv Health API (BFHL)
+# 🚀 Bajaj Finserv Health API (BFHL)
 
 ## 📌 Project Objective
-This project implements a REST API for the **Bajaj Finserv Health Hackathon Challenge**.  
-The API processes an array of strings, classifying input into numbers, alphabets, and special characters, while returning additional computed details.
+This project is built for the **Bajaj Finserv Health Hackathon Challenge**.  
+It provides a REST API that processes an input array of strings and classifies them into **odd numbers, even numbers, alphabets, and special characters**, while also returning computed details like **sum of numbers** and a special **concatenated string**.
 
-The API is built using **FastAPI** and deployed on **Render**.
+The API is developed using **FastAPI** and deployed on **Render**.
 
 ---
 
-## 🚀 Hosted API
+## 🌐 Hosted API
+- **Base URL:**  
+  [https://bajaj-finserv-health-07o6.onrender.com](https://bajaj-finserv-health-07o6.onrender.com)
+
 - **POST Endpoint:**  
-```
+  `/bfhl`
 
-[https://bajaj-finserv-health-07o6.onrender.com/bfhl](https://bajaj-finserv-health-07o6.onrender.com/bfhl)
+---
 
-````
-
-- **Example cURL Request:**
+## 📥 Example Request
 ```bash
 curl -X POST "https://bajaj-finserv-health-07o6.onrender.com/bfhl" \
 -H "Content-Type: application/json" \
 -d '{"data": ["a", "1", "334", "4", "R", "$"]}'
+
 ````
 
 * **Example Response:**
